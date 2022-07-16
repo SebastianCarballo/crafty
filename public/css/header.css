@@ -5,24 +5,28 @@ header{
 }
 
 header .top{
+    max-height:80px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 header .logo{
+    display: flex;
+    align-items: center;
     width: 50%;
 }
 
 header img{
     padding:10px;
-    width:75%;
+    width:150px;
 }
 header .burger{
     font-size: 30px;
     padding: 20px 30px;
     color:white;
     border: 1px solid white;
+    border-radius: 10px;
     display: inline-block;
 }
 
